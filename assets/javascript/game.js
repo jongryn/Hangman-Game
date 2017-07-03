@@ -4,9 +4,6 @@
 // Revisions: Jon (6/26/17) - Added js      
 */
 
-// GLOBAL VARIABLES (Accessible by all functions)
-// ==================================================================================================
-// Array of Word Options (all lowercase)
 var wordsList = ["jackjohnson", "rebelution", "dirtyheads", "iration", "sublime", "bobmarley", "benharper", "threeleggedfox", "longbeachduballstars", "barringtonlevy", "damianmarley", "ziggymarley", "pepper", "thegreen", "commonkings", "jboog", "sammyj", "chronixx", "theexpendables", "slightlystoopid", "soja", "shwayze", "steelpulse", "thewailers", "pacificdub", "aloharadio", "war"];
 // Solution will be held here.
 var chosenWord = "";
@@ -23,7 +20,6 @@ var winCounter = 0;
 var lossCounter = 0;
 var numGuesses = 9;
 // FUNCTIONS (These are bits of code that we will call upon to run when needed)
-// =========================================================================================
 // startGame()
 // Its how we we will start and restart the game.
 // (Note: It's not being run here. It's just being made for future use.)
@@ -122,7 +118,6 @@ function roundComplete() {
   }
 }
 // MAIN PROCESS (THIS IS THE CODE THAT CONTROLS WHAT IS ACTUALLY RUN)
-// ==================================================================================================
 // Starts the Game by running the startGame() function
 startGame();
 // Then initiate the function for capturing key clicks.
