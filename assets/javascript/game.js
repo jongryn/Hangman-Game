@@ -1,7 +1,8 @@
 /*
 // Created: June 26, 2017 12:25 PM
 // Author: Jonathan Gryn
-// Revisions: Jon (6/26/17) - Added js      
+// Revisions: Jon (6/26/17) - Added js   
+//            Jon (7/3/17) - Trying to figure out how to make my hangman slowly hang  
 */
 
 var wordsList = ["jackjohnson", "rebelution", "dirtyheads", "iration", "sublime", "bobmarley", "benharper", "threeleggedfox", "longbeachduballstars", "barringtonlevy", "damianmarley", "ziggymarley", "pepper", "thegreen", "commonkings", "jboog", "sammyj", "chronixx", "theexpendables", "slightlystoopid", "soja", "shwayze", "steelpulse", "thewailers", "pacificdub", "aloharadio", "war"];
@@ -25,7 +26,7 @@ var numGuesses = 9;
 // (Note: It's not being run here. It's just being made for future use.)
 function startGame() {
   // Reset the guesses back to 0.
-  numGuesses = 9;
+  numGuesses = 6;
   // Solution is chosen randomly from wordList.
   chosenWord = wordsList[Math.floor(Math.random() * wordsList.length)];
   // The word is broken into individual letters.
