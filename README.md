@@ -1,5 +1,7 @@
 # Hangman-Game
 
+Link: https://jongryn.github.io/Hangman-Game/
+
 Option Two: Hangman Game (Challenge - Recommended)
 Hangman
 Watch the demo.
